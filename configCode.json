@@ -1,0 +1,80 @@
+{
+  "security.allowedUNCHosts": ["wsl.localhost"],
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.8,
+  "editor.rulers": [80, 120],
+  "editor.fontLigatures": true,
+  "explorer.compactFolders": false,
+  "console-ninja.featureSet": "Community",
+  "terminal.external.windowsExec": "\"C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Git\\Git Bash.lnk\"",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 0,
+  "security.allowedUNCHosts": ["wsl.localhost"],
+
+  "remote.autoForwardPortsSource": "hybrid",
+  "[php]": {
+    "editor.defaultFormatter": "kokororin.vscode-phpfmt"
+  },
+  "codeium.enableConfig": {
+    "*": true,
+    "plaintext": true,
+    "note": true,
+    "prisma": true
+  },
+
+  "cSpell.enableFiletypes": ["!note"],
+  "cSpell.userWords": ["ossbrasil"],
+
+  "codeium.enableSearch": true,
+  "gitlens.views.remotes.branches.layout": "list",
+
+  "[plaintext]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.activityBar.location": "top",
+  "symbols.hidesExplorerArrows": false,
+  "terminal.integrated.env.windows": {},
+  "workbench.colorTheme": "Omni"
+}
